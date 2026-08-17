@@ -25,6 +25,3 @@ Open `http://localhost:8000`.
 
 ## GitHub Pages
 Push the project files to `prateek-gaud.github.io`; `index.html` is the homepage.
-
-### TryHackMe profile snapshot
-The CTF page uses the uploaded J0N47HAN TryHackMe profile screenshot as the primary profile visual, with responsive stats and certificate cards below it.
