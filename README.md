@@ -10,6 +10,3 @@ Education:
 
 Responsive at desktop, tablet and mobile widths, with a hamburger navigation on small screens.
 
-Run locally with `python3 -m http.server 8000`, then open `http://localhost:8000`.
-
-Update the placeholder LinkedIn/email links in `contact.html` before publishing.
