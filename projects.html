@@ -1,65 +1,66 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projects | Prateek Gaud</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="Prateek Gaud — Cybersecurity Enthusiast, Ethical Hacker and Python Developer.">
+    <title>Projects // Prateek Gaud</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap"
+        href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <header class="nav"><a class="logo" href="index.html"><span>PG</span> / PRATEEK</a>
-        <nav><a href="index.html">Home</a><a href="about.html">About</a><a href="skills.html">Skills</a><a
-                class="active" href="projects.html">Projects</a><a href="education.html">Education</a><a
-                href="contact.html">Contact</a></nav><a class="nav-cta" href="contact.html">Let's Connect</a>
+    <div class="bg-grid"></div>
+    <div class="scanline"></div>
+    <header class="topbar"><a class="brand" href="index.html"><b>PG</b><span>PRATEEK.GAUD</span></a><button class="menu"
+            aria-label="Open menu"><span></span><span></span><span></span></button>
+        <nav><a class="" href="index.html">01 Home</a><a class="" href="about.html">02 About</a><a class=""
+                href="skills.html">03 Skills</a><a class="active" href="projects.html">04 Projects</a><a class=""
+                href="education.html">05 Education</a><a class="" href="contact.html">06 Contact</a></nav>
     </header>
     <main class="page">
-        <div class="page-head">
-            <p class="kicker">03 / PROJECTS</p>
-            <h1>Things I've <span>built.</span></h1>
-            <p>Selected cybersecurity, development and learning projects.</p>
+        <div class="page-number">04 / PROJECTS</div>
+        <div class="page-heading">
+            <p class="tiny">SELECTED BUILDS</p>
+            <h1>THINGS<br><em>I BUILT.</em></h1>
         </div>
-        <div class="project-list">
-            <article class="project">
-                <div class="project-number">01</div>
-                <div class="project-main">
-                    <div class="project-meta">PYTHON · FLASK · SCAPY · PSUTIL</div>
-                    <h3>NetShield</h3>
+        <div class="project-stack">
+            <article>
+                <div class="project-id">01</div>
+                <div><small>PYTHON / FLASK / SCAPY / PSUTIL</small>
+                    <h2>NETSHIELD</h2>
                     <p>Real-time Network Packet Sniffer & Threat Detection Dashboard that captures, analyzes and
                         visualizes network traffic through a modern web interface.</p>
-                    <div class="tags"><span>Packet Analysis</span><span>Threat Detection</span><span>Web
-                            Dashboard</span></div>
-                </div><a class="arrow" href="#">↗</a>
+                    <div class="chips"><i>PACKET ANALYSIS</i><i>THREAT DETECTION</i><i>WEB DASHBOARD</i></div>
+                </div><b class="project-arrow">↗</b>
             </article>
-            <article class="project">
-                <div class="project-number">02</div>
-                <div class="project-main">
-                    <div class="project-meta">CYBERSECURITY · DOCUMENTATION</div>
-                    <h3>TryHackMe Walkthroughs</h3>
+            <article>
+                <div class="project-id">02</div>
+                <div><small>CYBERSECURITY / DOCUMENTATION</small>
+                    <h2>TRYHACKME<br>WALKTHROUGHS</h2>
                     <p>A growing collection of hands-on CTF and cybersecurity walkthroughs covering practical security
                         concepts, challenges and lessons learned.</p>
-                    <div class="tags"><span>CTF</span><span>Writeups</span><span>Security Labs</span></div>
-                </div><a class="arrow" href="https://github.com/prateek-gaud/Tryhackme-Walkthrough.git">↗</a>
+                    <div class="chips"><i>CTF</i><i>WRITEUPS</i><i>SECURITY LABS</i></div>
+                </div><a style="text-decoration: none;" href="https://github.com/prateek-gaud/Tryhackme-Walkthrough.git"><b class="project-arrow">↗</b></a>
             </article>
-            <article class="project">
-                <div class="project-number">03</div>
-                <div class="project-main">
-                    <div class="project-meta">CRYPTOGRAPHY · CTF</div>
-                    <h3>Security Challenges</h3>
+            <article>
+                <div class="project-id">03</div>
+                <div><small>CRYPTOGRAPHY / CTF</small>
+                    <h2>SECURITY<br>CHALLENGES</h2>
                     <p>Hands-on challenges and experiments exploring cryptography, encoding, reconnaissance and
                         practical problem solving.</p>
-                    <div class="tags"><span>Cryptography</span><span>OSINT</span><span>Problem Solving</span></div>
-                </div><a class="arrow" href="#">↗</a>
+                    <div class="chips"><i>CRYPTOGRAPHY</i><i>OSINT</i><i>PROBLEM SOLVING</i></div>
+                </div><a href="#"><b class="project-arrow">↗</b></a>
             </article>
         </div>
     </main>
-    <footer><span>© 2026 PRATEEK GAUD</span><span>PROJECTS</span></footer>
+    <footer><span>© 2026 PRATEEK GAUD</span><span>LEARN / BUILD / BREAK / SECURE</span></footer>
+    <script src="script.js"></script>
 </body>
 
 </html>
